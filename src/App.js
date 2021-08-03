@@ -1,13 +1,13 @@
 import React from 'react'
-import  Content  from './components/Content';
-import  Sidebar from './components/Sidebar';
+import  Content  from './components/Content'; 
 import Header  from './components/Header';
+import './App.scss'
 
 function App() {
   return (<>
-  <center style><Header/>
-  <Sidebar/>
-    <Content/></center>
+   <Header/>
+    <Content/>
+    
   
   </>);
 }
